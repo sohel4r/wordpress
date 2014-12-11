@@ -84,4 +84,4 @@ wp_nav_menu( $defaults );
 </div><!-- #header_right-->
 	</header><!-- #branding -->
 <div id="main">
-		<div id="primary">
+

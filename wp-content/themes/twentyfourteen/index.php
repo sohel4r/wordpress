@@ -27,7 +27,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-
+<h1>Test</h1>
 		<?php
 			if ( have_posts() ) :
 				// Start the Loop.

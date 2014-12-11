@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Left Sidebar
  * The template for displaying all pages
  *
  * This is the template that displays all pages by default.
@@ -44,5 +45,4 @@ get_header(); ?>
 </div><!-- #main-content -->
 
 <?php
-get_sidebar();
 get_footer();
