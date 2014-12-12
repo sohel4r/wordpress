@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file
+ * Template Name: Home 
  *
  * This is the most generic template file in a WordPress theme and one
  * of the two required files for a theme (the other being style.css).
@@ -17,8 +17,7 @@
 get_header(); ?>
 
 	<div id="primary">
-	<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
-		<div class="main-container">
+		<div id="content" role="main">
 		<?php
 			if ( have_posts() ) :
 				// Start the Loop.
@@ -44,7 +43,9 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
+<?php get_sidebar( 'content' ); ?>	
+</div><!-- #main-content -->
 
 <?php
+get_sidebar();
 get_footer();

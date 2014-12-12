@@ -28,6 +28,10 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="<?= dirname( get_bloginfo('stylesheet_url') ); ?>/tablet.css">
+	<link rel="stylesheet" href="<?= dirname( get_bloginfo('stylesheet_url') ); ?>/smart.css">
+	<script src="<?= dirname( get_bloginfo('stylesheet_url') ); ?>/js/pup.js"></script>
+	<script src="<?= dirname( get_bloginfo('stylesheet_url') ); ?>/js/viewer.js"></script>	
 </head>
 
 <body <?php body_class(); ?>>

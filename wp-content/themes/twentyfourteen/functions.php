@@ -424,8 +424,12 @@ function twentyfourteen_body_classes( $classes ) {
 		$classes[] = 'footer-widgets';
 	}
 
-	if ( is_singular() && ! is_front_page() ) {
+	if ( is_singular() && ! is_front_page() && is_page() ) {
+		$classes[] = 'one-column';
 		$classes[] = 'singular';
+
+	} elseif (is_singular() && ! is_front_page()) {
+		$classes[] = 'left-sidebar';
 	}
 
 	if ( is_front_page() && 'slider' == get_theme_mod( 'featured_content_layout' ) ) {
