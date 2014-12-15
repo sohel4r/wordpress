@@ -7,7 +7,9 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
+<div class="navxt">
+<?php breadcrumb_trail() ?>
+</div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Page thumbnail and title.
