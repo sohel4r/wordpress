@@ -498,7 +498,7 @@ input[type=text] {
 	padding: 3px;
 }
 input#s {
-	background: url(images/search.png) no-repeat 5px 6px;
+	background: url(./images/search.png) no-repeat 5px 6px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	border-color: #888;
@@ -655,7 +655,7 @@ a:hover .sub {
 #access .current_page_item > a,
 #access .current_page_ancestor > a {
 	font-weight: normal;
-	background-image: url(/img/bg2.png);
+	background-image: url(./img/bg2.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
@@ -898,7 +898,7 @@ width: 100%;
 	text-align: left;
 	text-indent: 1.4em;
 	line-height: 3.4em;
-	background: url("images/borderBg.gif") no-repeat 0 bottom;
+	background: url("./images/borderBg.gif") no-repeat 0 bottom;
 	width: 96%;
 	margin: 0 auto 1.4em;
 }
@@ -1318,7 +1318,7 @@ object {
 
 /* Comments link */
 .entry-header .comments-link a {
-	background: #eee url(images/comment-bubble.png) no-repeat;
+	background: #eee url(./images/comment-bubble.png) no-repeat;
 	color: #666;
 	font-size: 13px;
 	font-weight: normal;
@@ -2283,7 +2283,7 @@ section.ephemera .entry-title a span {
 	top: 0;
 }
 .commentlist > li:before {
-	content: url(images/comment-arrow.png);
+	content: url(./images/comment-arrow.png);
 	left: -21px;
 	position: absolute;
 }
@@ -2334,7 +2334,7 @@ a.comment-reply-link > span {
 .commentlist > li.bypostauthor .comment-meta a:hover {
 }
 .commentlist > li.bypostauthor:before {
-	content: url(images/comment-arrow-bypostauthor.png);
+	content: url(./images/comment-arrow-bypostauthor.png);
 }
 
 /* Post Author threaded comments */
@@ -3113,7 +3113,7 @@ p.comment-form-comment {
 
 #ch_page_bg{
 	clear:both;
-	background-image: url(/img/bg3.png);
+	background-image: url(./img/bg3.png);
 	background-repeat: repeat-x;
 	background-position: center top;
 	min-height: 29px;
@@ -3147,7 +3147,7 @@ p.comment-form-comment {
 
 #ch_page li a{
 	color: #FFF;
-	background-image: url(/img/bg4.png);
+	background-image: url(./img/bg4.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 15px;
@@ -3466,7 +3466,7 @@ p.page_info_inquiry{
 
 .box_storedevelopment_map {
 	background-color: #F7F7F7;
-	background-image: url(/img/page_img6.png);
+	background-image: url(./img/page_img6.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	clear:both;
@@ -4008,36 +4008,36 @@ background-image: none;
 }
 
 .category-emobile .entry-title{
-	background-image: url(/img/logo_em.png);
+	background-image: url(./img/logo_em.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
 .category-au .entry-title{
-	background-image: url(/img/logo_au.png);
+	background-image: url(./img/logo_au.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
 .category-docomo .entry-title{
-	background-image: url(/img/logo_nd.png);
+	background-image: url(./img/logo_nd.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
 .category-teluru .entry-title{
-	background-image: url(/img/logo_tl.png);
+	background-image: url(./img/logo_tl.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 .category-softbank .entry-title{
-	background-image: url(/img/logo_sb.png);
+	background-image: url(./img/logo_sb.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
 .store_parking{
-	background-image: url(/img/store_1.png);
+	background-image: url(./img/store_1.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding:15px 0 15px 45px;
@@ -4047,7 +4047,7 @@ background-image: none;
 }
 
 .store_comment{
-	background-image: url(/img/store_2.png);
+	background-image: url(./img/store_2.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding:10px 0 10px 25px;
@@ -4183,7 +4183,7 @@ background-image: none;
 
 #s_map {
 	height:421px;
-	background:url("/img/map_off.gif") no-repeat;
+	background:url("./img/map_off.gif") no-repeat;
 	margin:0px 0 1.0em auto;
 	position:relative;
 	width: 580px;
@@ -4196,18 +4196,18 @@ background-image: none;
 	display:inline;
 	list-style-type:none;
 	position:absolute;
-	background:url("/img/map_on.gif") no-repeat;
+	background:url("./img/map_on.gif") no-repeat;
 }
 #s_map li a {
 	display:block;
 	text-indent:-9877em;
 	text-decoration:none;
-	background:url("/img/map_off.gif") no-repeat;
+	background:url("./img/map_off.gif") no-repeat;
 	outline:medium none !important;
 	height:100%;
 }
 #s_map li a:hover {
-	background:url("/img/map_on.gif") no-repeat;
+	background:url("./img/map_on.gif") no-repeat;
 }
 /*------off*/
 #s_map li.map01 {
@@ -4956,7 +4956,7 @@ ul.jwts_tabbernav li a:hover {
 #footer_bg ul {
 	margin-bottom:10px;
 }
-#first ul ul li , #second ul ul li {
+#footer_bg ul ul li , #footer_bg ul ul li {
 	list-style: square!important;
 	list-style-position: inside!important;
 }
@@ -5322,7 +5322,7 @@ div.impNews p {
 	font-size: 1.0em !important;
 	line-height: 1.4em;
 	padding: 2.0em 1.4em;
-	background: url('/img/impNewsIcon.png') no-repeat 5% 45%;
+	background: url('./img/impNewsIcon.png') no-repeat 5% 45%;
 	vertical-align: bottom;
 }
 
