@@ -77,15 +77,38 @@ wp_nav_menu( $defaults );
 <div id="header_right">
 
 <div id="header_right_bottom">
-<div id="header_social">
-<ul>
-<li><a href="https://twitter.com/PupJp" target="_blank"><img src="http://www.p-up.jp/img/icon4.png" alt="Twitter"></a></li>
-<li><a href="https://www.facebook.com/Pup.jp" target="_blank"><img src="http://www.p-up.jp/img/icon3.png" alt="Facebook"></a></li>
-<li><a href="https://www.p-up.jp/inquiry"><img src="http://www.p-up.jp/img/icon2.png" alt="お問い合わせフォーム"></a></li>
-<li><a href="http://www.p-up.jp/sitemap"><img src="http://www.p-up.jp/img/icon1.png" alt="サイトマップ"></a></li>
-</ul>
-</div></div>
+<?php 
+		add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1);
+		add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1);
+		add_filter('page_css_class', 'my_css_attributes_filter', 100, 1);
+		function my_css_attributes_filter($var) {
+		  return is_array($var) ? array() : '';
+		}
+$social = array(
+	'theme_location'  => 'social',
+	'menu'            => '',
+	'container'       => 'div',
+	'container_class' => 'menu-social',
+	'container_id'    => 'header_social',
+	'menu_class'      => 'none-social',
+	'menu_id'         => 'none-social',
+	'echo'            => true,
+	'fallback_cb'     => false,
+	'before'          => '',
+	'after'           => '',
+	'link_before'     => '',
+	'link_after'      => '',
+	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+	'depth'           => 0,
+	'walker'          => ''
+);
+
+wp_nav_menu( $social );
+
+ ?>
+</div>
 </div><!-- #header_right-->
 	</header><!-- #branding -->
-<div id="main">
 
+<?php dynamic_sidebar('ch_page_bg'); ?>
+<div id="main">
