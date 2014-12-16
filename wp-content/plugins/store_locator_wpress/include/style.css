@@ -1,0 +1,48 @@
+#map img { max-width: none; }
+
+.pagination_box {
+	width:100%;
+	padding-bottom:5px;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom:10px;
+}
+
+.loading_icon {
+	background:url(graph/ajax-loader.gif) left top no-repeat;
+}
+
+.pagination_box_title {
+	
+}
+
+.pagination_box_previous_next {
+	
+}
+
+.marker_infowindow_box {
+	overflow:hidden !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	/*
+	color: black !important;
+	font-family: arial,sans-serif !important;
+	*/
+	line-height: normal !important;
+	width:360px;
+}
+
+.marker_infowindow_title_box {
+	font-weight: bold;
+}
+
+.marker_infowindow_address_box {
+
+}
+
+.marker_infowindow_details_box {
+	
+}
+
+.marker_infowindow_directions_box {
+	
+}
