@@ -1,0 +1,424 @@
+/*===============================================
+●smart.css  画面の横幅が640pxまで
+===============================================*/
+@media screen and (max-width:908px){
+    #main div.main-container div.mainBox, #main div.main-container div.infoBox {
+        width: 33.0%;
+    }
+    #main div.main-container div.infoBox div.newArrival dl.infomation dt {
+        width: 100%;
+    }
+    #main div.main-container div.infoBox div.newArrival dl.infomation dd {
+        width: 100%;
+    }
+}
+@media screen and (max-width:640px){
+
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+body {
+}
+#page {
+     position: absolute;
+     background: #fff;
+     z-index: 10 !important;
+     display: block;
+}
+body,
+#container{
+width:100%;
+}
+
+div.top_contents_bg {
+     float: left;
+     width: 50%;
+     height: 30% !important;
+     height: auto !important;
+     margin-bottom: 1%;
+     min-height: 240px;
+}
+
+.loop_1 .top_contents, .loop_2 .top_contents, .loop_4 .top_contents, .loop_5 .top_contents, .loop_7 .top_contents, .loop_8 .top_contents {
+     border-bottom: 0 !important;
+     border-right: 0 !important;
+     height: auto !important;
+     width: 100% !important;
+}
+div.content_left5,
+div.content_left6 {
+     width: 100% !important;
+     min-width: 320px;
+}
+div.content_right5 {
+     width: 100% !important;
+}
+.top_contents {
+     border:0px;
+     min-height: 0px !important;
+}
+.nivo-imageLink {
+     width: 100%;
+}
+div.top_contents {
+}
+#main {
+     width: 100% !important;
+     margin: 0 !important;
+}
+#access {
+     min-width: 0 !important;
+}
+#access .menu-main-container {
+     margin: 0 !important;
+     border: 0px;
+     width: 100% !important;
+}
+#meteor-slideshow {
+     width: 100%;
+     background: url('/img/bg3.png') x-repeat;
+     background-color:#DB0000;
+}
+#branding {
+     margin: 0px;
+     height: 130px;
+     padding-bottom: 0px;
+     position: relative;
+     width: 100% !important;
+}
+#branding hgroup {
+     margin: 0 20px !important;
+     width: 40% !important;
+}
+.hfeed {
+     width: 100% !important;
+     max-width: none;
+     min-width: 100% !important;
+}
+#branding h1 {
+     width: 100%;
+     font-size: 1.0rem !important;
+     padding-top: 70px;
+}
+#site-title {
+     position: absolute;
+     top: 5px;
+     left: 20px;
+     width: 160px;
+}
+#site-title img {
+     margin: 0.5em 0;
+     width: 60% !important;
+}
+.meteor-slides .meteor-clip {
+     padding: 20px !important;
+}
+#access {
+     width: 100%;
+     float: none;
+}
+#branding h1 {
+     font-size: 20px;
+}
+#access .menu-main-container {
+     background: #fff;
+}
+h3.assistive-text {
+     cursor:pointer;
+     position: static !important;
+     display: block;
+     padding: 14px;
+     max-width: 180px;
+     min-width: 100px;
+     float: right;
+     font-size: 1.4em;
+     background-image:-moz-linear-gradient(top, #FAD502, #E89502);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAD502), to(#E89502), color-stop(1,#E89502));
+    -webkit-border-top-left-radius: 0px;
+    -khtml-border-radius-topleft: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+
+    -webkit-border-top-right-radius: 0px;
+    -khtml-border-radius-topright: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+
+    -webkit-border-bottom-left-radius: 30px;
+    -khtml-border-radius-bottomleft: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    border-bottom-left-radius: 30px;
+
+    -webkit-border-bottom-right-radius: 30px;
+    -khtml-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomright: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.skip-link {
+     display: none;
+}
+.sub {
+     display: none;
+}
+#access ul {
+     margin: 0px !important;
+}
+#menu-main {
+     width: 100%;
+     position: absolute;
+     display: block;
+     background: #DB0000;
+     top: 0;
+     left: 0;
+     z-index: -2;
+     height: 200px;
+     margin: 0px !important;
+}
+.menu-main-container {
+     position: absolute;
+     background: #fff;
+     display: block;
+     width: 100%;
+     height: 200px;
+     z-index: 0;
+     top:-200px;
+}
+.menu-main-container a {
+     font-size: 1.4em;
+     color: #fff;
+}
+#access a {
+     color: #fff;
+}
+.menu-item {
+     width: 50% !important;
+}
+.menu-main-container li {
+
+}
+.panel_img {
+     margin: 0px;
+     width: 99%;
+}
+.top_contents h2 {
+     margin: 0px !important;
+     width: 98%;
+     height: 29%;
+     top: 0;
+     background: rgba(228, 0, 17, 0.8) !important;
+     font-size: 3.0rem !important;
+     text-align: center;
+     line-height: 75%;
+     padding: 35% 0;
+}
+.top_contents h2 a {
+     font-size: 60%;
+}
+.top_contents p {
+     display: none;
+}
+.panel_img img {
+
+}
+.nivoSlider {
+     width: 99% !important;
+}
+.singular div.menu-main-container {
+     top: -200px;
+}
+.singular #page {
+     top: 0px;
+     margin: 0px;
+}
+.singular .sub_title {
+     display: none;
+}
+.singular #post-2 {
+     position: absolute;
+     width: 100%;
+}
+.singular .entry-content {
+     position: relative;
+}
+nav#nav-single h3.assistive-text {
+     display: none;
+}
+div.loop_12 {
+     float: none;
+     width: 100%;
+     clear: both;
+     padding: 10px 0;
+}
+div.content_side3,
+div.content_center3 {
+     width: 100%;
+     float: none;
+     min-height: 600px;
+     margin: 0px 0px 10px;
+     padding: 10px 0;
+}
+div#s_map {
+    display: none;
+
+}
+#s_map_bg {
+    display: none;
+}
+.custom_search select {
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    padding: 4px;
+    background: #EAEAEA;
+    border: none;
+    color: #222;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.32) inset;
+    min-height: 45px;
+    max-width: 320px;
+}
+.searchform-input-wrapper {
+    float: none !important;
+    clear: both;
+    text-align: left !important;
+}
+.searchform-label {
+    float: none !important;
+    width: 100%;
+    clear: both;
+}
+.sub_page_caption {
+    font-size: 1.8em !important;
+}
+.store_news a {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.campaign_feed h3 {
+    line-height: 1.4em !important;
+}
+.content_title {
+    border-left-width: 5px ;
+}
+.post-2 .content_title h2 {
+    font-size: 30px;
+}
+.content_title h2 {
+    margin-bottom: 1.0em;
+}
+.sub_page_title_text {
+    width: 50%;
+}
+.singular.page .hentry {
+    padding: 3.625em 0 0;
+}
+.shoppage_left {
+    float: none;
+    width: 100%;
+    margin-bottom: 1.0em;
+}
+.shoppage_right {
+    width: 100%;
+    margin-left: 0px;
+}
+.entry-content h1, .entry-content h2, .comment-content h1, .comment-content h2 {
+
+}
+.two-column .store_comment_text {
+
+}
+div#google_maps {
+    height: 200px !important;
+}
+#imagearea {
+    width: 100%;
+    height: auto;
+}
+#imagearea img {
+    width: 100%;
+}
+#imagelist {
+    width: 100%;
+}
+#imagelist li {
+    width: 24%;
+}
+.store_service {
+}
+.store_service th {
+    width: 30%;
+}
+.left-sidebar #content {
+    margin-left: 0px;
+}
+.sub_page_title_text p {
+    display: none;
+}
+
+div.impNews p {
+    text-indent: 0px;
+    font-size: 1.0em !important;
+    line-height: 8.4em;
+    padding: 2.0em 1.4em 0;
+    background: url('/img/impNewsIcon.png') no-repeat 5% 20%;
+    vertical-align: bottom;
+}
+.recruit-wrapper .container {
+    width: 92%;
+    margin: 0 auto;
+}
+.recruit-wrapper .row .span4 {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 0.6%;
+    margin-bottom: 4.0em;
+}
+.recruit-wrapper .row .span5 {
+    width: 100%;
+    padding: 0.6%;
+    float: none;
+    text-align: center;
+}
+.recruit-wrapper .row .span6 {
+    width: 100%;
+    padding: 1.0%;
+    float: none;
+    text-align: center;
+}
+.recruit-wrapper .row .span7 {
+    width: 100%;
+    padding: 1.0%;
+    float: none;
+    text-align: left;
+}
+.recruit-wrapper div#service .large {
+    width: 30%;
+}
+#main div.main-container div.mainBox, #main div.main-container div.infoBox {
+    width: 100%;
+    float: none;
+}
+.meteor-slides .meteor-buttons {
+    width: 30% !important;
+}
+}
+
+
+
+@media screen and (max-width:330px){
+div.top_contents_bg {
+    min-height: 160px;
+    font-size: 100% !important;
+}
+.top_contents h2 {
+    font-size: 2rem !important;
+}
+#branding h1 {
+     width: 100%;
+     font-size: 0.9rem !important;
+     padding-top: 70px;
+}
+}
