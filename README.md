@@ -2,5 +2,5 @@ wordpress
 =========
 
 Wordpress default theme customization
- text by tania 2
+ text by tania 22
  
