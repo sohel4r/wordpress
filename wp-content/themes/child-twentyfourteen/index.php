@@ -52,11 +52,7 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-<<<<<<< HEAD
 	
-=======
-	<?php get_sidebar( 'content' ); ?>
->>>>>>> origin
 </div><!-- #main-content -->
 
 <?php

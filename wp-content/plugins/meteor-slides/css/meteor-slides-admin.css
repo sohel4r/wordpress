@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 /* Stylesheet for the Meteor Slides admin pages */
 #edit-slug-box,
 #message a,
 #preview-action,
 .row-actions .view {
 	display: none;	
-=======
-/* Stylesheet for the Meteor Slides admin pages */
-#edit-slug-box,
-#message a,
-#preview-action,
-.row-actions .view {
-	display: none;	
->>>>>>> origin
 }
