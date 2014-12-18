@@ -4956,9 +4956,16 @@ ul.jwts_tabbernav li a:hover {
 #footer_bg ul {
 	margin-bottom:10px;
 }
+<<<<<<< HEAD
 #footer_bg ul ul li , #footer_bg ul ul li {
 	list-style: square!important;
 	list-style-position: inside!important;
+=======
+#first ul ul li , #second ul ul li {
+	list-style: square!important;
+	list-style-position: inside!important;
+	color: #fff;
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9
 }
 
 .topbox_feed{
@@ -5474,4 +5481,8 @@ div.impNews p {
 	background-image: url('./images/recruit/arrow_white.png');
 	background-repeat: no-repeat;
 	background-position: 94% center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9

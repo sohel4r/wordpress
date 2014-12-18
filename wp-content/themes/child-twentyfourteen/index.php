@@ -52,7 +52,11 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+<<<<<<< HEAD
 	
+=======
+	<?php get_sidebar( 'content' ); ?>
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9
 </div><!-- #main-content -->
 
 <?php

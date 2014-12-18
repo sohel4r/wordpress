@@ -29,6 +29,10 @@
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 
+<<<<<<< HEAD
 		
+=======
+		<?php the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">','</a></h1>' ); ?>
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9
 	</header><!-- .entry-header -->
 </article><!-- #post-## -->

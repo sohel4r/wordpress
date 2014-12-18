@@ -14,7 +14,21 @@
 </div><!-- #PAGE -->
 <div id="footer_bg">
 <footer id="colophon" role="contentinfo">
+<<<<<<< HEAD
 <?php get_sidebar( 'footer' ); ?>
+=======
+<div id="supplementary" class="three">
+	<div id="first" class="widget-area" role="complementary">
+		<?php dynamic_sidebar('footer_widget1'); ?>
+	</div>
+	<div id="second" class="widget-area" role="complementary">
+		<?php dynamic_sidebar('footer_widget2'); ?>
+	</div>
+	<div id="third" class="widget-area" role="complementary">
+		<?php dynamic_sidebar('footer_widget3'); ?>
+	</div>		
+</div>
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9
 <div id="site-generator">
 	<div id="footer_contents">
 		<?php 

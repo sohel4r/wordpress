@@ -55,6 +55,28 @@ $args = array(
 	'before_widget' => '<div id="ch_page_bg" ><div class="hfeed"><div id="ch_page">',
 	'after_widget'  => '</div></div></div>' );	
 register_sidebar( $args );
+<<<<<<< HEAD
+=======
+
+register_sidebar( array(
+	'name'          => 'Footer First',
+	'id'            => 'footer_widget1',
+	'before_widget' => '<aside id="nav_menu-1" class="widget widget_nav_menu">',
+	'after_widget'  => '</aside>'
+	) );
+register_sidebar( array(
+	'name'          => 'Footer Second',
+	'id'            => 'footer_widget2',
+	'before_widget' => '<aside id="nav_menu-2" class="widget widget_nav_menu">',
+	'after_widget'  => '</aside>'	
+	) );
+register_sidebar( array(
+	'name'          => 'Footer Third',
+	'id'            => 'footer_widget3',
+	'before_widget' => '<aside id="nav_menu-3" class="widget widget_nav_menu">',
+	'after_widget'  => '</aside>'	
+	) );
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9
 }
 add_action( 'widgets_init', 'home_top_widget_child' );
 

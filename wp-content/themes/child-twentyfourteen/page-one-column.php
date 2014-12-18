@@ -14,12 +14,16 @@
 
 get_header(); ?>
 <div id="main-content" class="main-content">
+<<<<<<< HEAD
 <?php
 	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
 		// Include the featured content template.
 		get_template_part( 'featured-content' );
 	}
 ?>
+=======
+
+>>>>>>> 29b1f0fb46bc77e204f748f79127e4863e4c92e9
 	<div id="primary" class="content-area one-column">
 		<div id="content" class="site-content" role="main">
 
